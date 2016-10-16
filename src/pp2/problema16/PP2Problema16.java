@@ -25,14 +25,14 @@ public class PP2Problema16 {
         return miDato;
     }
     public static void comparaNumeros(){
-        double a= solicitarDatos("primer numero " + "\n");
-        double b= solicitarDatos("primer numero " + "\n");
-        double c= solicitarDatos("primer numero " + "\n");
-        if (a>b && a>c){
+        double a= solicitarDatos("primer numero " + "\n"); //Se solicita el primer dato
+        double b= solicitarDatos("primer numero " + "\n"); //Se solicita el segundo dato
+        double c= solicitarDatos("primer numero " + "\n"); //Se solicita el tercer dato
+        if (a>b && a>c){ //Si a es mayor que b y a es mayor que c
             System.out.print("El numero mayor es " + a);
-        } else if (b>a && b>c){
+        } else if (b>a && b>c){ //Si b es mayor que a y b es mayor que c
             System.out.print("El numero mayor es " + b);
-        }else if(c>a && c>b){
+        }else if(c>a && c>b){ //Si c es mayor que a y si c es mayor que b
             System.out.print("El numero mayor es " + c);
         }
     }
