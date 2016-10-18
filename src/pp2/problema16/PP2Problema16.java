@@ -26,8 +26,8 @@ public class PP2Problema16 {
     }
     public static void comparaNumeros(){
         double a= solicitarDatos("primer numero " + "\n"); //Se solicita el primer dato
-        double b= solicitarDatos("primer numero " + "\n"); //Se solicita el segundo dato
-        double c= solicitarDatos("primer numero " + "\n"); //Se solicita el tercer dato
+        double b= solicitarDatos("segundo numero " + "\n"); //Se solicita el segundo dato
+        double c= solicitarDatos("tercer numero " + "\n"); //Se solicita el tercer dato
         if (a>b && a>c){ //Si a es mayor que b y a es mayor que c
             System.out.print("El numero mayor es " + a);
         } else if (b>a && b>c){ //Si b es mayor que a y b es mayor que c
